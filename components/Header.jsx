@@ -21,11 +21,6 @@ const Header = () => {
               BLOG
             </span>
           </Link>
-          <Link href="https://hervekrist.netlify.app/">
-            <span className="cursor-pointer font-bold text-4xl text-white">
-              SITE
-            </span>
-          </Link>
         </div>
         <div className="hidden md:float-left md:contents">
           {categories.map((category, index) => (

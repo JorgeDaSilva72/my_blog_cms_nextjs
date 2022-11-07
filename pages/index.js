@@ -1,13 +1,13 @@
 // import { FeaturedPosts } from '../sections/index';
-import { PostCard, Categories, PostWidget } from '../components';
-import { getPosts } from '../services';
-import Head from 'next/head'
+import { PostCard, Categories, PostWidget } from "../components";
+import { getPosts } from "../services";
+import Head from "next/head";
 
 export default function Home({ posts }) {
   return (
     <div className="container mx-auto px-10 mb-8">
       <Head>
-        <title>Blog HK</title>
+        <title>Blog </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <FeaturedPosts /> */}
@@ -35,6 +35,3 @@ export async function getStaticProps() {
     props: { posts },
   };
 }
-
-
-
